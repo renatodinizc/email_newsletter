@@ -1,5 +1,5 @@
 use email_newsletter::configuration::{get_configuration, DatabaseSettings};
-use sqlx::{PgConnection, PgPool, Connection, Executor};
+use sqlx::{Connection, Executor, PgConnection, PgPool};
 use uuid::Uuid;
 
 struct TestApp {
